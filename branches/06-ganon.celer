@@ -1,0 +1,12 @@
+Ganon:
+- .dir(BLSS)
+
+- .boss(Calamity Ganon):
+    line-color: rgb(255,255,255)
+    icon: ganon
+    coord: [-254.00, 191.01, -1061.37]
+    comment: Skip
+
+- .boss(Dark Beast Ganon):
+    icon: ganon
+    comment: Don't die

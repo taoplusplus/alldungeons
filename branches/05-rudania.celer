@@ -1,0 +1,18 @@
+Vah Rudania:
+- _Npc::Goron<Yunobo>:
+    line-color: rgb(196,0,0)
+    coord: [2142.43, 634.02, -2288.29]
+
+- Enter Rudania:
+    icon: rudania-enter
+    movements:
+        - to: [2235,-2370]
+        - to: [2502.61, 667.95, -2270.26]
+        - to: [2701.02, 726.21, -2363.06]
+        - to: [2794.50, 774.84, -2657.93]
+
+- Daruk's Protection:
+    icon: rudania-done
+    movements:
+        - to: [1572.5,-2422.5]
+          warp: true
