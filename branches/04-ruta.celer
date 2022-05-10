@@ -1,8 +1,12 @@
 Vah Ruta:
 - .dir(BLSS)
+- .loc(Outside Goron City):
+    #line-color: rgb(255,0,0)
+    coord: [1513,-2335.5]
 
+- .dir(<<E)
 - _Shop<Buy Flamebreaker Armor>:
-    line-color: rgb(255,0,0)
+    #line-color: rgb(255,0,0)
     coord: [1643.34, 490.49, -2404.52]
     var-change:
         Rupee: -600
@@ -21,18 +25,22 @@ Vah Ruta:
 - .dir(N>, <N turn)
 - _Npc::Goron<Yunobo>:
     coord: [1630.68, 560.52, -2941.37]
+    notes: .link([Clip]https://youtu.be/6H7DROMaXQU?t=3419)
 
 - _Chest<10 Ice Arrow>
 
+- .dir(<<S)
 - _Npc::Goron<Bludo>:
     coord: [1713.95, 498.05, -2446.92]
     comment: Daruk Memory
 
+- .dir(SE, E> super)
 - Activate Daqa Koh:
     icon: shrine
     coord: [2041.40, 603.06, -2329.10]
 
-- .dir(BLSS)
+- .dir(BLSS):
+    notes: .link([Clip]https://youtu.be/6H7DROMaXQU?t=3566)
 - _Npc::ZoraMale<King Dorephan>:
     line-color: rgb(196,196,255)
     coord: [3338.31, 268.90, -551.60]
