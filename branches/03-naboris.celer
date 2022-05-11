@@ -89,7 +89,7 @@ Vah Naboris:
 
 - _Npc<Riju>:
     coord: [-3868.85, 166.67, 2948.96]
-    comment: On balcony, Urbosa memory
+    comment: On balcony, Urbosa Memory
 
 - .dir(W> super)
 - _Npc<Riju>:
@@ -105,6 +105,9 @@ Vah Naboris:
 
 - .gale():
     gale: 2
+
+- .boss(Thunderblight):
+    icon: calamity
 
 - Urbosa's Fury:
     icon: naboris-done

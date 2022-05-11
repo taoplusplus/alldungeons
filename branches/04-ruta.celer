@@ -56,6 +56,13 @@ Vah Ruta:
 - Enter Ruta:
     icon: ruta-enter
     coord: [3662.40, 315.66, -175.42]
+    time-override: 999
+
+- .gale():
+    gale: 1
+
+- .boss(Waterblight):
+    icon: calamity
 
 - Mipha's Grace:
     icon: ruta-done

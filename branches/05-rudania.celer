@@ -24,7 +24,7 @@ Vah Rudania:
 
 - Mag box skywatcher 1,2
 - .fury() skywatcher 3,4,5:
-    fury: 3
+    fury: 2
 - Mag box moblins
 
 - .code(Cannon 4)
@@ -41,6 +41,11 @@ Vah Rudania:
 
 - .gale():
     gale: 1
+
+- .boss(Fireblight):
+    icon: calamity
+    comment: .fury()
+    fury: 1
 
 - Daruk's Protection:
     icon: rudania-done

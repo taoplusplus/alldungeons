@@ -37,7 +37,7 @@ Vah Medoh:
 - _Material<Sunshroom,4>:
     comment: Buy all
     var-change:
-        Rupee: -16
+        Rupee: -64
     notes: .v(Rupee) rupees.
 
 - .dir(<N turn super)

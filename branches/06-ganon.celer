@@ -7,7 +7,7 @@ Ganon:
     icon: ganon
     coord: [-254.00, 191.01, -1061.37]
     comment: Skip
-    notes: .link([Clip]https://youtu.be/6H7DROMaXQU?t=5325)
+    notes: .link([Clip]https://youtu.be/6H7DROMaXQU?t=5325), .link([Setup]https://discord.com/channels/269611402854006785/293465650540838913/953828980832735292)
 
 - .boss(Dark Beast Ganon):
     icon: ganon
