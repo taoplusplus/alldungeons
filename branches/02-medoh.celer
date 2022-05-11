@@ -61,6 +61,7 @@ Vah Medoh:
     var-change:
         Arrow: -5
         BombArrow: -8
+    split-type: UserDefined
 
 - _Material<Ancient Core,1>
 - _Material<Ice Arrow,10>
@@ -73,6 +74,7 @@ Vah Medoh:
     movements:
         - to: [-3565.625,-1817.375]
           warp: true
+    split-type: UserDefined
 
 - _Npc<Kaneli>:
     coord: [-3627.20, 323.57, -1830.81]

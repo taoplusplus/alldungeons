@@ -52,6 +52,7 @@ Vah Naboris:
 
 - .boss(Kohga):
     icon: calamity
+    split-type: UserDefined
 
 - _Chest::Special<Thunderhelm>:
     coord: [-3451.00, 440.69, 1331.50]
@@ -102,6 +103,7 @@ Vah Naboris:
 - Enter Naboris:
     icon: naboris-enter
     coord: [-2754.62, 112.53, 3749.44]
+    split-type: UserDefined
 
 - .gale():
     gale: 2
@@ -115,5 +117,6 @@ Vah Naboris:
     movements:
         - to: [-3772,2851]
           warp: true
+    split-type: UserDefined
 
 - _Warp::VahNaboris

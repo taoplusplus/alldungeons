@@ -57,6 +57,7 @@ Vah Ruta:
     icon: ruta-enter
     coord: [3662.40, 315.66, -175.42]
     time-override: 999
+    split-type: UserDefined
 
 - .gale():
     gale: 1
@@ -69,5 +70,6 @@ Vah Ruta:
     movements:
         - to: [3283.5,-431]
           warp: true
+    split-type: UserDefined
 
 - _Warp::Shrine::DaqaKoh

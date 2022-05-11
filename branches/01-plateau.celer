@@ -64,3 +64,4 @@ Plateau:
 - _Npc<Paraglider>:
     icon: king
     coord: [-812, 1966.1012189378007]
+    split-type: UserDefined
