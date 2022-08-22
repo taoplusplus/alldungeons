@@ -1,0 +1,14 @@
+Ganon:
+- BLSS
+- .boss(Calamity Ganon):
+    line-color: orange
+    icon: ganon
+    coord: [-254.00, 191.01, -1061.37]
+    split-type: UserDefined
+    comment: Fight .fury()
+    fury: 2
+
+- .boss(Dark Beast Ganon):
+    icon: ganon
+    split-type: UserDefined
+    comment: Skip Bow of Light

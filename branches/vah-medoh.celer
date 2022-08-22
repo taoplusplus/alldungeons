@@ -1,0 +1,92 @@
+Vah Medoh:
+- BLSS to .loc(Castle Balcony)
+
+- Drop Traveler's Bow
+- _Chest<3 Ancient Arrows>:
+    coord: [-254.00, 209.67, -742.37]
+    line-color: lime
+- _Equipment::Bow<Royal Bow>:
+    hide-icon-on-map: true
+
+- WB .dir(<E) + .dir(N) -> BLSS:
+    movements:
+        - to: [-366,-743.5]
+        - to: [-392.5,-995.5]
+    notes: Start BLSS on roof of Zelda's Study
+
+- .loc(Great Fairy Fountain)
+- _Material<Fairy,2>:
+    coord: [-3545.92, 295.03, -760.21]
+- _Material<Mighty Thistle,2>:
+    coord: [-3534.30, 292.78, -764.30]
+- _Material<Silent Princess,2>:
+    coord: [-3528.98, 292.37, -739.48]
+- _Material<Endura Carrot,2>:
+    coord: [-3567.42, 292.79, -733.09]
+
+- WB .dir(N>)
+- _Equipment::Weapon<Royal Claymore>:
+    coord: [-3554.00, 331.55, -1047.30]
+- Throw away Boko Spear
+- BLSS to .loc(Rito Village)
+
+- _Npc::Rito<Kaneli>:
+    coord: [-3627.20, 323.57, -1830.81]
+- _Npc::Rito<Saki>:
+    coord: [-3606.64, 323.62, -1823.03]
+    comment: Revali memory
+
+- Glide
+- _Equipment::Weapon<Torch>:
+    coord: [-3591.32, 297.46, -1809.53]
+
+- Run, glide
+- _Shop<General Store>:
+    coord: [-3643.01, 290.64, -1823.43]
+    hide-icon-on-map: true
+- .!!(IST):
+    icon: tots
+    notes: .link([Sim commands]https://pastebin.com/6Xv93KSS), copy/paste into .link([IST Sim]https://dupl.itntpiston.app/#simulation)
+- Sell 510 Fairy:
+    icon: shop
+    hide-icon-on-map: true
+
+- WB .dir(<N)
+- _Npc::Rito<Teba>:
+    coord: [-3798.52, 267.35, -2314.14]
+
+- Shoot 5 Targets
+- _Chest<Falcon Bow>:
+    hide-icon-on-map: true
+
+- .dir(Enter Medoh):
+    icon: medoh-enter
+    coord: [-3620.00, 739.95, -2110.00]
+    split-type: UserDefined
+    notes: One ancient arrow takes out a canon.
+
+- Complete Divine Beast
+- _Chest<Ice Arrow,10>:
+    hide-icon-on-map: true
+    comment: After terminal 4
+
+- .boss(Windblight):
+    icon: calamity
+    hide-icon-on-map: true
+
+- Revali's Gale:
+    icon: medoh-done
+    movements:
+        - to: [-3565.625,-1817.375]
+          warp: true
+    split-type: UserDefined
+
+- _Npc<Kaneli>:
+    coord: [-3627.20, 323.57, -1830.81]
+    hide-icon-on-map: true
+
+- _Chest::Special<Great Eagle Bow>:
+    hide-icon-on-map: true
+
+- WARP
+- _Warp::Shrine::KehNamut
