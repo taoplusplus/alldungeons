@@ -7,7 +7,7 @@ _project:
   url: ""
   version: 0.1.0
 _route:
-  - (==) This is the current (2022-08-11) world record run by .link([zdi]https://www.speedrun.com/user/Zdi). .link([Video link]https://youtu.be/6ejOca1qHL8)
+  - (==) This is a previous (2022-08-11) world record run by .link([Zdi]https://www.speedrun.com/user/Zdi). .link([Video link]https://youtu.be/6ejOca1qHL8)
   - Plateau:
       - __use__ Plateau
   - Vah Medoh:
