@@ -1,10 +1,30 @@
 Vah Rudania:
-- WB .dir(E)
+- .dir(N>) + swim + .dir(W>) + BLSS:
+    movements:
+        - to: [3361,-803]
+        - to: [3320,-806]
+        - to: [3081,-851]
+
+- _Npc::Goron<Bludo>:
+    coord: [1713.95, 498.05, -2446.92]
+
+- .dir(N>) + .dir(<N)
+- _Npc::Goron<Yunobo>:
+    coord: [1630.68, 560.52, -2941.37]
+
+- .dir(<S)
+- _Npc::Goron<Bludo>:
+    coord: [1713.95, 498.05, -2446.92]
+    comment: Daruk Memory
+
+- .dir(<S) + .dir(E>) + .dir(E)
+- Kill 2 Moblins:
+    icon: calamity
+    hide-icon-on-map: true
 - _Npc::Goron<Yunobo>:
     line-color: red
     coord: [2142.43, 634.02, -2288.29]
     time-override: 999
-
 - .!!(Escort):
     icon: tots
     comment: Ancient arrow everything

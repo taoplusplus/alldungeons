@@ -1,33 +1,37 @@
 Vah Medoh:
-- BLSS to .loc(Castle Balcony)
+- Jump down
+- _Equipment::Weapon<Boko Club>:
+    comment: From bokoblin below
+    coord: [-811.41, 221.27, 1958.06]
 
-- Drop Traveler's Bow
+- BLSS to .loc(Castle Balcony)
+- Drop & pickup:
+    notes: Move ruby into slot 1 of materials for IST
+    icon: material
+    hide-icon-on-map: true
+    comment: Peppers and shrooms
 - _Chest<3 Ancient Arrows>:
     coord: [-254.00, 209.67, -742.37]
     line-color: lime
 - _Equipment::Bow<Royal Bow>:
     hide-icon-on-map: true
+- 5 Normal Arrow:
+    icon: bow
+    hide-icon-on-map: true
 
-- WB .dir(<E) + .dir(N) -> BLSS:
-    movements:
-        - to: [-366,-743.5]
-        - to: [-392.5,-995.5]
-    notes: Start BLSS on roof of Zelda's Study
+- .dir(W) + .dir(W):
+    coord: [-416,-753]
+    notes: BLSS from top of malice pillar
 
-- .loc(Great Fairy Fountain)
-- _Material<Fairy,2>:
+- BLSS to .loc(Great Fairy Fountain)
+- _Material<3 Fairy>:
     coord: [-3545.92, 295.03, -760.21]
-- _Material<Mighty Thistle,2>:
+- _Material<3 Mighty Thistle>:
     coord: [-3534.30, 292.78, -764.30]
-- _Material<Silent Princess,2>:
-    coord: [-3528.98, 292.37, -739.48]
-- _Material<Endura Carrot,2>:
-    coord: [-3567.42, 292.79, -733.09]
 
-- WB .dir(N>)
+- .dir(N>)
 - _Equipment::Weapon<Royal Claymore>:
     coord: [-3554.00, 331.55, -1047.30]
-- Throw away Boko Spear
 - BLSS to .loc(Rito Village)
 
 - _Npc::Rito<Kaneli>:
@@ -36,22 +40,17 @@ Vah Medoh:
     coord: [-3606.64, 323.62, -1823.03]
     comment: Revali memory
 
-- Glide
-- _Equipment::Weapon<Torch>:
-    coord: [-3591.32, 297.46, -1809.53]
-
-- Run, glide
+- Jump down
 - _Shop<General Store>:
     coord: [-3643.01, 290.64, -1823.43]
     hide-icon-on-map: true
 - .!!(IST):
     icon: tots
-    notes: .link([Sim commands]https://pastebin.com/6Xv93KSS), copy/paste into .link([IST Sim]https://dupl.itntpiston.app/#simulation)
-- Sell 510 Fairy:
-    icon: shop
+    notes: .link([IST Sim commands]https://pastebin.com/wAv3P51a), copy/paste into .link([IST Sim]https://dupl.itntpiston.app/#simulation)
+- _Shop<Sell 9 Ruby>:
     hide-icon-on-map: true
 
-- WB .dir(<N)
+- .dir(<N)
 - _Npc::Rito<Teba>:
     coord: [-3798.52, 267.35, -2314.14]
 
@@ -66,7 +65,7 @@ Vah Medoh:
     notes: One ancient arrow takes out a canon.
 
 - Complete Divine Beast
-- _Chest<Ice Arrow,10>:
+- _Chest<10 Ice Arrow>:
     hide-icon-on-map: true
     comment: After terminal 4
 
@@ -80,6 +79,7 @@ Vah Medoh:
         - to: [-3565.625,-1817.375]
           warp: true
     split-type: UserDefined
+    line-color: yellow
 
 - _Npc<Kaneli>:
     coord: [-3627.20, 323.57, -1830.81]
@@ -87,6 +87,3 @@ Vah Medoh:
 
 - _Chest::Special<Great Eagle Bow>:
     hide-icon-on-map: true
-
-- WARP
-- _Warp::Shrine::KehNamut

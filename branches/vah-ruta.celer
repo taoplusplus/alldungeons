@@ -1,35 +1,7 @@
 Vah Ruta:
-- BLSS + WB .dir(<E):
-    coord: [1513,-2335.5]
-
-- _Npc::Goron<Bludo>:
-    coord: [1713.95, 498.05, -2446.92]
-
-- WB .dir(N>) + .dir(<N)
-- _Npc::Goron<Yunobo>:
-    coord: [1630.68, 560.52, -2941.37]
-
-- WB .dir(<S)
-- _Npc::Goron<Bludo>:
-    coord: [1713.95, 498.05, -2446.92]
-    comment: Daruk Memory
-
-- .dir(<S) + .dir(E>)
-- Activate Daqa Koh:
-    icon: shrine
-    coord: [2041.40, 603.06, -2329.10]
-
-- .gale():
-    gale: 1
-
-- Snipe 2 Moblins:
-    icon: calamity
-    hide-icon-on-map: true
-
 - BLSS
 - _Npc::ZoraMale<King Dorephan>:
     coord: [3338.31, 268.90, -551.60]
-    line-color: dodgerblue
     comment: Fish Drama
 
 - _Equipment::Shield<Zora Armor>:
@@ -50,6 +22,8 @@ Vah Ruta:
     split-type: UserDefined
 
 - Complete Divine Beast
+- .gale():
+    gale: 1
 - .boss(Waterblight):
     icon: calamity
     hide-icon-on-map: true
@@ -60,6 +34,4 @@ Vah Ruta:
         - to: [3283.5,-431]
           warp: true
     split-type: UserDefined
-
-- WARP
-- _Warp::Shrine::DaqaKoh
+    line-color: red

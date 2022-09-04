@@ -1,65 +1,46 @@
 Plateau:
 - .!!(SoR clip):
     icon: location
-    line-color: white
     notes: Do not activate time of day.
 
 - Run to .loc(Boko Camp)
-
-- _Material<Spicy Pepper,6>:
+- _Material<6 Spicy Pepper>:
     coord: [-965.30, 238.52, 1956.67]
-
 - _Equipment::Shield<Pot Lid>:
     coord: [-952.34, 238.33, 1959.44]
-
 - _Equipment::Weapon<Boko Spear>:
     hide-icon-on-map: true
-
-- _Material<2 Hylian Shroom>:
+- _Material<3 Hylian Shroom>:
     hide-icon-on-map: true
 
 - Run, surf to .loc(Temple of Time):
     notes: Clip in.
-
 - _Chest<Traveler's Bow>:
     coord: [-832.43, 222.00, 1963.11]
-
-- _Material<Arrow,5>:
+- _Material<5 Normal Arrow>:
     comment: Break pot
+    hide-icon-on-map: true
 
-- BLSS
-
-- _Shrine::JaBaij:
-    comment: Clip in
-
+- BLSS -> clip in
+- _Shrine::JaBaij
 - _Npc<Old Man>:
     coord: [-461.70, 178.41, 1990.18]
     comment: Text options 2-1-1-2
 
-- BLSS
-- _Tower::GreatPlateau
-
-- WB .dir(<N)
-
-# - _Chest<Ruby>:
-#     coord: [-671.65, 171.79, 1522.61]
-
+- BLSS -> clip in
+- _Chest<Ruby>:
+    coord: [-671.65, 171.79, 1522.61]
 - _Shrine::OmanAu
 
-- BLSS
-- _Material<Apple,2>:
-    coord: [-856.45, 192.73, 2274.48]
-
-- Run -> Tree WB:
+- BLSS -> tree WB -> clip in:
     coord: [-839,2273.5]
-
 - _Shrine::OwaDaim
 
-- Boulder launch -> BLSS
+- Boulder -> BLSS -> clip in
 - _Shrine::KehNamut
 
 - BLSS
 - _Npc<Paraglider>:
     icon: king
-    coord: [-812, 1966.1012189378007]
+    coord: [-809.33, 263.58, 1964.35]
     split-type: UserDefined
