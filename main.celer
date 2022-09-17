@@ -7,8 +7,7 @@ _project:
   url: ""
   version: 0.1.0
 _route:
-  - (==) This is the current (2022-09-03, 2022-09-05) world record run by .link([Player5]https://www.speedrun.com/user/Player5), .link([video link]https://youtu.be/odktJjMIUtk)
-  - (==) For the previous (2022-08-11) world record by .link([Zdi]https://www.speedrun.com/user/Zdi). go .link([here]https://celer.itntpiston.app/#/gh/taoplusplus/alldungeons/2022-08-11-Zdi)
+  - (==) This is a previous (2022-09-03, 2022-09-05) world record run by .link([Player5]https://www.speedrun.com/user/Player5), .link([video link]https://youtu.be/odktJjMIUtk)
   - Plateau:
       - __use__ Plateau
   - Vah Medoh:
